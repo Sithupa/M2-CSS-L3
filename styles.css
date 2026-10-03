@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right,rgb(96, 96, 167),rgb(214, 218, 217));
+    font-size: 16px;
+}
+
+.codingal:hover{
+    color: red;
+}
+.codingal{
+    color: yellow;
+}
+.topic:hover{
+    color: blue;
+}
+.topic{
+    text-decoration: underline;
+}
+.mychild > li {
+    color: blue;
+}
+.mychild > li:nth-child(1){
+    color: red;
+    background-color: yellow;
+}
+.myp::first-letter{
+    color: yellow;
+    font-size: 200%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mydiv{
+    width: 50%;
+    background-color: yellowgreen;
+    color: white;
+    border: 2px solid red;
+    padding: 3px;
+}
