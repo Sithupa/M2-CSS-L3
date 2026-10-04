@@ -21,6 +21,7 @@ body{
 .mychild > li:nth-child(1){
     color: red;
     background-color: yellow;
+    width: 7%;
 }
 .myp::first-letter{
     color: yellow;
@@ -29,9 +30,10 @@ body{
     text-transform: uppercase;
 }
 .mydiv{
-    width: 50%;
+    width: 7%;
     background-color: yellowgreen;
     color: white;
     border: 2px solid red;
     padding: 3px;
+    text-align: center;
 }
